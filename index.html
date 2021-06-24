@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <title>PR rocket</title>
+    <script src="https://kit.fontawesome.com/a9c1882cb6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+    <header>
+        <div class="backgroundHeader">
+            <div>
+                <a><img class="logo" src="img/logo.png" alt="Piar Rocket"></a>
+                <i class="fas fa-bars burger"></i>
+            </div>
+            <nav class="burgerVisibility">
+                <ul>
+                    <li class="activePage"><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="triangleHeader" id="js-backgroundHeader"></div>
+    </header>
+    <main>
+        <div id="js-scrollSpyHeader"></div>
+        <section class="slider">
+            <div class="sliderWrapper">
+                <div class="sliderSwitch">
+                    <img src="img/Left.png" alt="">
+                </div>
+                <div class="sliderFirstColumn">
+                    <h1>Добро пожаловать на ракету</h1>
+                    <h2>Рекламное агенство</h2>
+                    <p>Наше креативное агенство создаст для вас качественный дизайн и эффективные коммуникации, а точнее рекламу, логотипы, упаковки, неймы, слоганы, ролики, анимацию и многое другое.</p>
+                    <input type="button" value="Подробнее">
+                </div>
+                <div class="sliderSecondColumn">
+                    <img src="img/Slider01.png">
+                </div>
+                <div class=sliderSwitch>
+                    <img src="img/Right.png" alt="">
+                </div>
+            </div>
+            <div>
+                <span class="activeSliderSpan"></span><span></span><span></span>
+            </div>  
+        </section>
+        <section class="services">
+            <div class="servicesHeader">
+                <h2>Что мы делаем</h2>
+                <p>Мы выполняем весь комплекс работ, от разработки логотипа, до массовых PR акций и готовы воплотить ваши самые неординарные задачи.</p>
+            </div>
+            <div class="servicesBody">
+                <div>
+                    <img src="img/Service1.png" alt="">
+                    <h3>Дизайн</h3>
+                    <p>Мы создаем графические работы любой сложности, упаковку и этикетки, фирменные стили, 3D-визуализации, иллюстрации, логотипы. Мы создаем визуальные концепции для каталогов, журналов и постоянно работаем с полиграфией.</p>
+                </div>
+                <div>
+                    <img src="img/Service2.png" alt="">
+                    <h3>Креатив</h3>
+                    <p>Разрабатываем креативные проекты, нестандартные решения для бизнеса, которые обязательно решают клиентскую задачу. Люди любят истории, а мы умеет находить в компаниях именно те истории, от которых захватывает дух.</p>
+                </div>
+                <div>
+                    <img src="img/Service3.png" alt="">
+                    <h3>Производство</h3>
+                    <p>Это сам процесс физического преобразования рекламной стратегии в реальную рекламу в печати, рекламу по радио и телевидению, или любой другой вид рекламы.</p>
+                </div>
+            </div>
+            <div class="triangleService" id="js-services">
+
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="portfolioHeader">
+                <h2>Наши работы</h2>
+                <p>Здесь представлена лишь малая часть тех работ, которые мы выполняем ежедневно для вас.</p>
+            </div>
+            <div class="portfolioBody">
+                <div class="navbuttons">
+                    <input type="button" class="activePorfolioPage" value="Показать всё">
+                    <input type="button" value="Визитки">
+                    <input type="button" value="Логотипы">
+                    <input type="button" value="Реклама">
+                </div>
+                <div class="portfolioblocks">
+                    <input type="button" value="Перейти к архиву">
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio01.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ТаксиАвтоГрупп</h4>
+                            <p>Разработка логотипа.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio02.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio03.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio04.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio05.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio06.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio07.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio08.png" alt="Нажмите для подробной информации">
+                    </div>
+                    <div>
+                        <div class="portfolioImgDis">
+                            <h4>ISsoft</h4>
+                            <p>Ребрендинг компании.<span>Нажмите для подробной информации</span></p>
+                        </div>
+                        <img src="img/Portfolio09.png" alt="Нажмите для подробной информации">
+                    </div>
+                </div>
+                <div class="portfolioFooter">
+                    <input type="button" value="Показать еще">
+                    <input type="button" value="Перейти к архиву">
+                </div>
+            </div>
+            <div class="trianglePortfolio" id="js-portfolio"></div>
+        </section>
+        <section class="aboutUs">
+            <div class="aboutUsHeader">
+                <h2>Кто мы?</h2>
+                <p>Команда профессионалов, знающих свое дело.</p>
+            </div>
+            <div class="aboutUsBody">
+                <div class="aboutUsPhoto">
+                    <div>
+                        <img src="img/Team1.png" alt="">
+                        <h4>Павел Яськуть</h4>
+                        <ul>
+                            <li><a href=""><span class="fa fa-vk iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-instagram iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-telegram iconaboutUs"></span></a></li>
+                        </ul>
+                        <div>
+                            <h3>Директор</h3>
+                            <p>Необходимо оставаться лидером и примером для подчиненных, сглаживая на первоначальном этапе возможные конфликтные ситуации между сотрудниками.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/Team2.png" alt="">
+                        <h4>Анастасия Фесько</h4>
+                        <ul>
+                            <li><a href=""><span class="fa fa-vk iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-instagram iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-telegram iconaboutUs"></span></a></li>
+                        </ul>
+                        <div>
+                            <h3>Дизайнер</h3>
+                            <p>Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/Team3.png" alt="">
+                        <h4>Анна Литвинова</h4>
+                        <ul>
+                            <li><a href=""><span class="fa fa-vk iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-instagram iconaboutUs"></span></a></li>
+                            <li><a href=""><span class="fa fa-telegram iconaboutUs"></span></a></li>
+                        </ul>
+                        <div>
+                            <h3>Фотограф</h3>
+                            <p>Какая из фотографий моя любимая? Та, которую я сделаю завтра</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutUsInfo">
+                    <h3>О нас</h3>    
+                    <p>С момента основания агентства входим в ТОП-10 лучших креативных агентств Беларуси. В 2019 году мы стали агентством №2 в рейтинге мастерства за свои крафтовые работы. В 2018 году креативное агентство «PRrocket» — единственная компания, представившая Республику Беларусь на международном фестивале рекламы «Каннские Львы» в категории «Дизайн». В 2018 году команда одержала победу в международном фестивале рекламы и маркетинга «Белый Квадрат» в категории «Молодые креаторы»</p>
+                    <h4>Навыки наших сотрудников</h4>
+                    <div class="skillsBox">
+                        <div>
+                            <ul id="js-animationGraph">
+                                <li><span>Верстка</span> <span class="graph"></span></li>
+                                <li><span>Графический дизайн</span><span class="graph"></span></li>
+                                <li><span>СММ</span><span class="graph"></span></li>
+                                <li><span>Полиграфия</span><span class="graph"></span></li>
+                            </ul>
+                        </div>
+                        <div class="skillsBoxSecondColumn">
+                            <div>
+                                <h3>Знаете больше?</h3>
+                                <p>Возможно, вы именно тот сотрудник, которого мы ищем сейчас и если ваш талант до сих пор не оценили по достоинтсву, мы готовы это исправить. Вам достаточно связаться с нами и мы неприменно пригласим вас на собеседование.</p>
+                            </div>
+                            <input type="button" value="Связаться">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aboutUsTriangle" id="js-aboutUs"></div>
+        </section>
+        <section class="subscribe">
+            <div>
+                    <p>Всё еще не подписан на нас? Сделай это прямо сейчас и ты сможешь узнавать об акциях и новинках раньше других.</p>
+                    <input type="button" value="Подписаться">
+                    <div class="subscribeTriangle" id="js-subscribe"></div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="clientsHeader">
+                <h2>Отзывы клиентов</h2>
+                <p>Честные отзывы – это социальное доказательство нашей полезности. Мало верить нашим словам, важно услышать, что о нас говорят другие.</p>
+            </div>
+            <div class="clientsBody">
+                <div>
+                    <div class="containerOtziv">
+                        <p class="clientOtziv">"Батутная арена Hero Park благодарит команду креативного агентства «PRrocket» за реализацию проекта по созданию анимационного видеоролика. При подготовке сценария агентством были учены все наши пожелания, а также привнесено собственное видение, которое позволило получить крутую анимацию."</p>
+                        <div>
+                            <img src="img/Client1.png" alt="">
+                            <div class="NameOtzivCompany">
+                                <h6>ООО “Ноок солюшнс”</h6>
+                                <p>Разработка видеоролика</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerOtziv">
+                        <p class="clientOtziv">"Выражаем благодарность креативному агентству «PRrocket» за ответственную работу по созданию фирменного стиля заведения. Команда агентства срабатала профессионально и качественно. Будем работать в дальнейшем."</p>
+                        <div>
+                            <img src="img/Client2.png" alt="">
+                            <div class="NameOtzivCompany">
+                                <h6>ООО “Делифуд”</h6>
+                                <p>Создание фирменного стиля</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerOtziv">
+                        <p class="clientOtziv">"Проект был реализован в короткие сроки, что практически не отразилось на качестве. Большим плюсом стало оперативное ведение коммуникации, понимание брендов заказчика и высокий уровень креатива в разработке дизайн-материалов."</p>
+                        <div>
+                            <img src="img/Client3.png" alt="">
+                            <div class="NameOtzivCompany">
+                                <h6>ЗАО “ВТБ Банк”</h6>
+                                <p>Редизайн рекламных материалов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>"Совершенство достигается не тогда, когда больше нечего добавить, а когда больше нечего отнять"</p>
+            </div>
+        </section>
+        <section class="clientsBanner">
+            <div class="clientsBannerHeader">
+                <h4>Наши клиенты</h4>
+                <div>
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="clientsBannerBody">
+                <ul>
+                    <li><img src="img/ClientsBanner/ClientLogo01.png" alt=""></li>
+                    <li><img src="img/ClientsBanner/ClientLogo02.png" alt=""></li>
+                    <li><img src="img/ClientsBanner/ClientLogo03.png" alt=""></li>
+                    <li><img src="img/ClientsBanner/ClientLogo04.png" alt=""></li>
+                    <li><img src="img/ClientsBanner/ClientLogo05.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <section class="prices">
+            <div class="pricesHeader">
+                <h2>Цены</h2>
+                <p>Стоимость за каждую услугу сугубо индивидуальна. Мы предоставляем вам три кейса на самые популярные запросы клиентов по максимально выгодной цене.</p>
+            </div>
+            <div class="pricesBody">
+                <div class="pricesBox">
+                    <div>
+                        <h3>Редизайн</h3>
+                        <ul>
+                            <li>$39,99</li>
+                            <li><strong>Бесплатное</strong> промо</li>
+                            <li><strong>24/7</strong> на связи</li>
+                            <li><strong>2</strong> разработанных варианта</li>
+                        </ul>
+                        <input type="button" value="Купить">
+                    </div>
+                    <div>
+                        <h3>Айдентика</h3>
+                        <ul>
+                            <li>$50,00</li>
+                            <li><strong>Бесплатное</strong> промо</li>
+                            <li><strong>Любая</strong> печать</li>
+                            <li><strong>3</strong> разработанных варианта</li>
+                        </ul>
+                        <input type="button" value="Купить">
+                    </div>
+                    <div>
+                        <h3>Сайт под ключ</h3>
+                        <ul>
+                            <li>$79,99</li>
+                            <li><strong>Бесплатный</strong> хостинг</li>
+                            <li><strong>20</strong> дней</li>
+                            <li><strong>4</strong> разработанных варианта</li>
+                        </ul>
+                        <input type="button" value="Купить">
+                    </div>
+                </div>
+                <p>Для ознакомления с ценами на другие услуги агентства звоните в любое время.</p>
+                <input type="button" value="Связаться">
+            </div>
+            <div class="pricesFooter">
+                <h4>Остались вопросы по цене?</h4>
+                <div>
+                    <p>Отправьте нам вашу почту и мы пришлем вам полный прайс на предоставляемые услуги.</p>
+                    <form>
+                        <input type="email" required placeholder="Введите ваш email">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contactsHeader">
+                <h2>Наши контакты</h2>
+                <p>Мы работаем и за пределами Беларуси. Вы только позовите.</p>
+            </div>
+            <div class="contactsBody">
+                <div class="map">
+                    <form action="">
+                        <h4>Отправьте нам сообщение</h4>
+                        <input type="text" placeholder="* Ваше имя..." required >
+                        <input type="email" placeholder="* Ваш email..." required >
+                        <textarea placeholder="* Сообщение.." required></textarea>
+                        <input type="submit" value="Отправить">
+                    </form>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4a3fac7af52d572be3db8c629ec7db71e8c6227c05ce9b0c39e8505c5d093cfa&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
+                </div>
+                <address>г. Минск, ул. Голубева 22А, офис №66</address>
+                <ul>
+                    <li><a href="mailto:kaptowka1999@mail.ru">kaptowka1999@mail.ru</a></li>
+                    <li><a href="tel:+375296039733">+375(29) 603-97-33</a></li>
+                    <li><a href="tel:+375293676607">+375(29) 367-66-07</a></li>
+                </ul>
+            </div>
+            <div class="contactsFooter">
+                <h3>Мы социальные</h3>
+                <ul>
+                    <li><a href=""><span class="fa fa-vk contactsIcon"></span></a></li>
+                    <li><a href=""><span class="fa fa-instagram contactsIcon"></span></a></li>
+                    <li><a href=""><span class="fa fa-telegram contactsIcon"></span></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2021 Автор сайта kamaz.v8 - vk.com/kaptowka228</p>
+    </footer>
+</body>
+</html>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/scrollSpy.js"></script>
+<script src="js/default.js"></script>
